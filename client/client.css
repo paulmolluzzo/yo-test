@@ -9,8 +9,7 @@ a:hover {text-decoration: underline;}
 h1, h2, h3, h4 { margin-bottom: .5rem; font-weight: bold; line-height: 1; color: #fff; }
 h1 { font-size: 3rem; }
 p {margin:1.3rem 0;}
-label {display: block;}
-label, input, button {border:none; border-radius: .1em; margin:.5rem auto 0; padding: .3rem; width: 90%; max-width: 30em; text-align:center;}
+label, input, button {border:none; border-radius: .1em; display:block; margin:.5rem auto 0; padding: .3rem; width: 90%; max-width: 30em; text-align:center;}
 input{color:#333;}
 button {background-color: #563d7c; border-radius: .1em; border: none; display: inline-block; outline:none;}
 footer {margin: 3rem auto 0;text-align: center;}
