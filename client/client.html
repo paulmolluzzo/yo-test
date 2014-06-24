@@ -1,15 +1,22 @@
 <head>
     <title>Test Yo API Key</title>
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Montserrat:700,400">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 </head>
 <body>
     <h1>Test Yo API Key</h1>
-    <p class="important">Nothing is being saved in a database.</p>
-    <p>This is a quick way to</p>
+    <p><em>This is not affiliated with the real Yo service at all.</em></p>
+    <p>This is a quick way to try out your <a href="https://yoapi.justyo.co">Yo API key</a> and a proof of of the <a href="https://atmospherejs.com/package/yo-meteor">yo-meteor package</a> for <a href="http://www.meteor.com">Meteor</a>. Enter your Yo API Key, and click the button to send out a Yo to your peeps.</p>
     {{>home}}
+    <footer>
+        <p><a href="https://twitter.com/paulmolluzzo">Paul Molluzzo</a></p>
+    </footer>
 </body>
 
 <template name="home">
-    <label>Enter your Yo API Key</label>
-    <input id="api-key" name="key" type="textfield" placeholder="This is not saved to a database">
-    <button id="yo">Say Yo</button>
+    <div>
+        <label>Enter your Yo API Key:</label>
+        <input id="api-key" name="key" type="textfield" placeholder="NEVER saved">
+        <button id="yo" class="btn">Say Yo</button>
+    </div>
 </template>
