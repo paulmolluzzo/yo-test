@@ -7,8 +7,8 @@
     "packages": {
       "yo-meteor": {
         "git": "https://github.com/paulmolluzzo/yo-meteor.git",
-        "tag": "v0.1.0",
-        "commit": "c67344453dc62ee7f48e5e131be032271c5448f5"
+        "tag": "v0.3.0",
+        "commit": "8db9a022a936dcd50bd20ef5f5cc3d8c955348e7"
       }
     }
   }
